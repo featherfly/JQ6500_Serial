@@ -1,0 +1,41 @@
+version=1.0.0
+author=
+maintainer=Gogo Internet Services Limited
+sentence=Library for controlling JQ6500 MP3 Player Devices
+category=Other
+
+architectures=avr,esp8266,esp32
+dot_a_linkage=true
+
+{
+    "name": "JQ6500_Serial",
+    "keywords": "JQ6500, JQ6500_Serial, MP3 Player",
+    "description": "Allows complete control of the JQ6500 (JQ6500-28P, JQ6500-16P) Mp3 Player Modules using Software Serial.",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/featherfly/JQ6500_Serial.git"
+    },
+    "authors":
+    [
+      {
+        "name": "James Sleeman",
+        "maintainer": true
+      },
+      {
+        "name": "yufei featherfly",
+        "email": "featherfly@foxmail.com",
+        
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "SoftwareSerial",
+        "authors": ["Arduino","Paul Stoffregen","yufei"],
+        "frameworks": "arduino"
+      }
+    ],
+    "version": "1.0.0",
+    "frameworks": "arduino",
+    "platforms": "*"
+  }
