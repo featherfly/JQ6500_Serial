@@ -21,7 +21,6 @@
     "dependencies": [
       {
         "name": "SoftwareSerial",
-        "authors": ["Arduino","Paul Stoffregen","yufei"],
         "frameworks": "arduino"
       }
     ],
