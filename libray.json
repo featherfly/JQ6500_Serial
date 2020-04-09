@@ -1,6 +1,6 @@
 {
     "name": "JQ6500_Serial",
-    "keywords": "JQ6500, JQ6500_Serial, MP3 Player",
+    "keywords": "JQ6500, JQ6500Serial, MP3 Player",
     "description": "Allows complete control of the JQ6500 (JQ6500-28P, JQ6500-16P) Mp3 Player Modules using Software Serial.",
     "repository":
     {
